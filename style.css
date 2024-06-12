@@ -11,17 +11,18 @@ section {
 }
 .Sticky {
     padding:0 75px;
-    position: fixed;
 }
 header{
     display: flex;
+    position: fixed;
     width: 100%;
     padding: 25px 75px;
     align-items: center;
     transition: 0.2s;
     justify-content: space-between;
     background-color: rgba(227,230,243,255);
-
+    z-index: 5;
+    transition: .5s;
 }
 header nav ul {
     display: flex;
@@ -82,10 +83,10 @@ header nav ul li a .bx{
     background-image: url("img/hero4.png");
     background-size: 80% 100%;
     background-repeat: no-repeat;
-    background-position: 190px 0;
+    background-position: 190px 65px;
     background-color: rgba(227,230,243,255);
     /* background-position: top; */
-    height: 550px;
+    height: 645px;
 }
 .dds .Tr {
     font-size: 20px;
