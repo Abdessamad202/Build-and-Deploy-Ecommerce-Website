@@ -434,7 +434,7 @@ section .switch .num3 {
 .form .container .div2 .ddiv2 .peaple  {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 20px;
 }
 .form .container .div2 .ddiv2 .peaple .nade .name {
     font-weight: bold;
