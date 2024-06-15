@@ -422,22 +422,28 @@ section .switch .num3 {
 .form .container .div2 {
     width: 30%;
     display: flex;
-    flex-direction: column;
-    gap: 30px;
+    align-items: center;
 }
-.form .container .div2 .peaple  {
+.form .container .div2 .ddiv2 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+.form .container .div2 .ddiv2 .peaple  {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.form .container .div2 .peaple .nade .name {
+.form .container .div2 .ddiv2 .peaple .nade .name {
     font-weight: bold;
 }
-.form .container .div2  .peaple .nade .details {
+.form .container .div2 .ddiv2  .peaple .nade .details {
     font-size: 13px;
     color: gray;
 }
-.form .container .div2 .peaple .nade {
+.form .container .div2 .ddiv2 .peaple .nade {
     display: flex;
     flex-direction: column;
     gap: 5px;
