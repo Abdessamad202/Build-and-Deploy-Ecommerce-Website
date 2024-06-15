@@ -82,9 +82,9 @@ header nav ul li a .bx{
 }
 .dds{
     background-image: url("img/hero4.png");
-    background-size: 90% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: 75px -50px;
+    background-position: 0px -50px;
     background-color: rgba(227,230,243,255);
     /* background-position: top; */
     height: 645px;
