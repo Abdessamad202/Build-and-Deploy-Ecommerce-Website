@@ -1,4 +1,6 @@
 /* General Styles */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
 *, ul, li {
   margin: 0;
   padding: 0;
@@ -17,7 +19,7 @@ html, body {
 /* Navbar Styles */
 .navbar {
   background: #ffffff;
-  padding: 1rem 2rem;
+  padding: 0rem 2rem;
   position: fixed;
   top: 0;
   left: 0;
