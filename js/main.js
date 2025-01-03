@@ -1,3 +1,7 @@
+import 'bootstrap';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
+
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
