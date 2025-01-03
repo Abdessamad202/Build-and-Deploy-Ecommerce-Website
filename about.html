@@ -1,45 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
-    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="style1.css"> -->
 </head>
-<body>
-    <header>
+
+<body class="bg-light">
+    <nav class="navbar">
         <div class="logo">
             <img src="img/logo.png" alt="">
         </div>
-        <nav>
-            <ul>
-                <li><a class="notselc" href="home.html">home</a></li>
-                <li><a class="notselc" href="shop.html">shop</a></li>
-                <li><a class="notselc" href="blog.html">blog</a></li>
-                <li><a class="selc" href="about.html">about</a></li>
-                <li><a class="notselc" href="contact.html">contact</a></li>
-                <li><a class="notselc" href="shoping.html"><i class='bx bx-shopping-bag'></i></a></li>
-            </ul>
-        </nav>
-    </header>
-    <section class="knowus">
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="index.html" class="nav-link ">Home</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link active">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a class=" nav-link" href="shoping.html"><i class='bx  bx-shopping-bag'></i></a></li>
+        </ul>
+    </nav>
+    <section class="knowus mt-4">
         <div>
             <div class="big">
-                #KnowUs
+                #AboutUs
             </div>
             <div class="small">Lorem ipsum dolor sit amet, consectetur</div>
         </div>
     </section>
-    <section class="BLOG">
-        <div class="Articl">
-            <div class="image pic1"></div>
-            <div class="infoss">
-                <div class="pac">
-                    <h1>Who We Are ?</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto alias facilis repellat, nisi ut eum, quisquam nulla, m
+    <section class=" my-5 bg-light ">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img class="w-100 " src="./img/about/a6.jpg" alt="">
+                </div>
+                <div class="col-md-6">
+
+                    <h1 class="h1 text-center mb-4">Who We Are ?</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto alias facilis repellat, nisi
+                        ut eum, quisquam nulla, m
                         odi soluta impedit itaque provident facere tempora nihil fuga molestiae enim rerum libero.
                     </p>
                     <div>
@@ -54,70 +67,75 @@
             </div>
         </div>
     </section>
-    <section class="Download">
-        <div class="head">
-            Download Our <a href="">App</a>
-        </div>
-        <div class="vid">
-            <video src="img/about/1.mp4" autoplay loop></video>
-        </div>
-    </section>
-    <section>
-        <div class="fitems">
-            <div class="items">
-                <div class="prod">
-                    <div class="img"><img src="img/features/f1.png" alt=""></div>
-                    <div class="title">free shipping</div>
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-4">
+                    <div>
+                        <img src="img/features/f1.png" alt="Free Shipping" class="img-fluid mb-2">
+                        <h5 class="text-secondary">Free Shipping</h5>
+                    </div>
                 </div>
-            </div>
-            <div class="items">
-                <div class="prod">
-                    <div class="img"><img src="img/features/f2.png" alt=""></div>
-                    <div class="title">Online Order</div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-4">
+                    <div>
+                        <img src="img/features/f2.png" alt="Online Order" class="img-fluid mb-2">
+                        <h5 class="text-secondary">Online Order</h5>
+                    </div>
                 </div>
-            </div>
-            <div class="items">
-                <div class="prod">
-                    <div class="img"><img src="img/features/f3.png" alt=""></div>
-                    <div class="title">Save Money</div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-4">
+                    <div>
+                        <img src="img/features/f3.png" alt="Save Money" class="img-fluid mb-2">
+                        <h5 class="text-secondary">Save Money</h5>
+                    </div>
                 </div>
-            </div>
-            <div class="items">
-                <div class="prod">
-                    <div class="img"><img src="img/features/f4.png" alt=""></div>
-                    <div class="title">Promotions</div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-4">
+                    <div>
+                        <img src="img/features/f4.png" alt="Promotions" class="img-fluid mb-2">
+                        <h5 class="text-secondary">Promotions</h5>
+                    </div>
                 </div>
-            </div>
-            <div class="items">
-                <div class="prod">
-                    <div class="img"><img src="img/features/f5.png" alt=""></div>
-                    <div class="title">Happy Sell</div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-4">
+                    <div>
+                        <img src="img/features/f5.png" alt="Happy Sell" class="img-fluid mb-2">
+                        <h5 class="text-secondary">Happy Sell</h5>
+                    </div>
                 </div>
-            </div>
-            <div class="items">
-                <div class="prod">
-                    <div class="img"><img src="img/features/f6.png" alt=""></div>
-                    <div class="title">F24/7 Support</div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mb-4">
+                    <div>
+                        <img src="img/features/f6.png" alt="24/7 Support" class="img-fluid mb-2">
+                        <h5 class="text-secondary">24/7 Support</h5>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="singup">
-        <div class="disc">
-            <h1>
-                Sign Up For Newsletters
-            </h1>
-            <p>
-                Get E-mail updates about our latest shop and <span>special offers</span>.
-            </p>
-        </div>
-        <div class="sufild">
-            <div>
-                <input type="text" name="" id="" placeholder="Your email address">
-                <button type="button">Sing Up</button>
+    <section class="singup py-5">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="disc">
+                        <h1>
+                            Sign Up For Newsletters
+                        </h1>
+                        <p>
+                            Get E-mail updates about our latest shop and <span>special offers</span>.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="sufild">
+                        <div>
+                            <input type="text" name="" id="" placeholder="Your email address">
+                            <button type="button">Sing Up</button>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
     </section>
 </body>
 <script src="main.js"></script>
+
 </html>
